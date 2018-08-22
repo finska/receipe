@@ -1,0 +1,7 @@
+.container.text-center
+  %h2 Recipes page
+  - @recipes.each do |row|
+    %h3
+      = row.name
+    %p
+      = row.description
