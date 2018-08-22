@@ -1,0 +1,30 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  email: myemail@email.com
+
+two:
+  name: MyString
+  email: second@email.com
+
+email_not_valid:
+  name: Blabla
+  email: not_valid
+
+name_minimum:
+  name: aa
+  email: bla@example.com
+
+name_maximum:
+  name: a * 101
+  email: aha@example.com
+
+email_unique:
+  name: Assap
+  email: aha@example.com
+
+
+email_uppcase:
+  name: Assap
+  email: UPPCASE@example.com

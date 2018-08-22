@@ -1,0 +1,33 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  description: MyText
+
+two:
+  name: MyString
+  description: MyText
+
+name_missing:
+  name:
+  description: Some
+
+name_minimum:
+  name: a * 2
+  description: Some
+
+name_maximum:
+  name: a * 2
+  description: Some
+
+description_missing:
+  name: Blabla
+  description:
+
+description_minimum:
+  name: a * 4
+  description: Some
+
+description_maximum:
+  name: a * 501
+  description: Some
