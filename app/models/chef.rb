@@ -1,4 +1,5 @@
 class Chef < ApplicationRecord
+  has_many :recipes
   before_save { self.email = email.downcase! }
   validates :name, presence: true, length: { minimum: 3, maximum: 100 }
   validates :email, presence: true, uniqueness: { case_sensitive: false }

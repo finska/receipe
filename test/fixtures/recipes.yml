@@ -1,10 +1,17 @@
 # Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
 
 one:
+  chef_id: 1
   name: MyString
   description: MyText
 
 two:
+  chef_id: 1
+  name: MyString
+  description: MyText
+
+three:
+  chef_id: 2
   name: MyString
   description: MyText
 
